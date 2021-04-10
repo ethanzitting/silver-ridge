@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("const body = document.querySelector('body');\n\nbody.innerHTML = \"Future home of SilverRidgeContracting.com\";\n\n//# sourceURL=webpack://env-template/./src/index.js?");
+eval("\n\n//# sourceURL=webpack://env-template/./src/index.js?");
 /******/ })()
 ;

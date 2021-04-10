@@ -1,20 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Environment Template</title>
+    <title>Silver Ridge</title>
 
-    <!-- Sets CSS -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- My CSS -->
     <link href="reset.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="styles.css" rel="stylesheet" type="text/css" media="all" />
 
     <!-- Makes wepage more responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-    <!-- Introduces Javascript-->
-    <script src="main.js" defer></script>
   </head>
   <body>
-    Body
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">SRC Logo</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link" target="_blank" rel="noreferrer">Past Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" target="_blank" rel="noreferrer">Capabilities</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" target="_blank" rel="noreferrer">Testimonies</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" target="_blank" rel="noreferrer">Meet the Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" target="_blank" rel="noreferrer">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <h1>Silver Ridge Contracting</h1>
+        </div>
+        <div class="row">
+          <h3>Personable, Broad-Scope Contractors in Salt Lake City, Utah.</h3>
+        </div>
+        <div class="row">
+          <h3>Featured Projects</h3>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              Project 1
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              Project 2
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              Project 3
+            </div>            
+          </div>
+        </div>
+        <div class="row">
+          <h3>Capabilities</h3>
+        </div>
+        <div class="row">
+          <div class="d-flex flex-row">
+            <div class="card">
+              Capability 1
+            </div>
+            <div class="card">
+              Capability 2
+            </div>
+            <div class="card">
+              Capability 3
+            </div>
+            <div class="card">
+              Capability 4
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h3>Who We Are</h3>
+        </div>
+        <div class="row">
+          <p>Pictures and such of us and a big button to get in contact or learn more.</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h3>Footer</h3>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="main.js"></script>
   </body>
 </html>
