@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("\n\n//# sourceURL=webpack://env-template/./src/index.js?");
+eval("const hamburgerBtn = document.querySelector('.navbar-toggler');\nconst navMenu = document.querySelector('.navbar-collapse');\n\nhamburgerBtn.addEventListener('click', () => {\n  navMenu.classList.toggle('show');\n})\n\n//# sourceURL=webpack://env-template/./src/index.js?");
 /******/ })()
 ;
