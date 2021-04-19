@@ -41,6 +41,7 @@ body {
   padding: 30px;
   text-align: right;
   padding-left: 40%;
+  padding-right: 10%;
 }
 
 .shadow {
@@ -75,7 +76,7 @@ body {
 
 .footer {
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(240, 240, 240);
 }
 
 .limit-width {
