@@ -1,10 +1,13 @@
-footer, .footer, .footer h3 {
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-block-end: 0;
-  padding-bottom: 0;
-}
+/*
+TABLE OF CONTENTS
+  - TABLE OF CONTENTS (DUH)
+    - TABLE OF CONTENTS (JUST KIDDING)
+  - GENERAL TOOLS
+  - SECTION SPECIFIC LAYOUT AND SPACING
+  - FONTS AND COLORS
+*/
 
+/* GENERAL TOOLS */
 body {
   margin: none !important;
 }
@@ -25,23 +28,6 @@ body {
 .sticky-top {
   position: fixed;
   width: 100vw;
-}
-
-.navbar {
-  opacity: .95;
-}
-
-.landing-div {
-  background-image: url('./images/wood-bg.jpeg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  height: 200px;
-  padding: 30px;
-  text-align: right;
-  padding-left: 40%;
-  padding-right: 10%;
 }
 
 .shadow {
@@ -69,14 +55,9 @@ body {
 }
 
 .card-img-top {
-  width: 190px;
-  height: 110px;
+  object-fit: cover;
+  height: 180px;
   overflow: hidden;
-}
-
-.footer {
-  width: 100%;
-  background-color: rgb(240, 240, 240);
 }
 
 .limit-width {
@@ -95,5 +76,49 @@ body {
 .pad-top {
   margin-top: 100px;
 }
+
+/* SECTION SPECIFIC LAYOUT AND SPACING */
+
+  /* NAVBAR */
+.navbar {
+  opacity: .95;
+}
+
+  /* HOME PAGE */
+.landing-div {
+  background-image: url('./images/wood-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+  text-align: right;
+  padding-left: 40%;
+  padding-right: 10%;
+}
+
+  /* PAST PROJECTS */
+
+  /* TESTIMONIES */
+
+  /* ABOUT US */
+
+  /* CONTACT US */
+
+  /* FOOTER */
+footer, .footer, .footer h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-block-end: 0;
+  padding-bottom: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}
+
+/* FONTS AND COLORS */
 
 
