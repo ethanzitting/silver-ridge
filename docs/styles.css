@@ -45,6 +45,19 @@ body {
   justify-content: center;
 }
 
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.indent {
+  padding-left: 2em;
+}
+
 /* SECTION SPECIFIC LAYOUT AND SPACING */
 
   /* NAVBAR */
@@ -59,25 +72,14 @@ body {
 
   /* HOME PAGE */
 .landing-div {
-  background-image: url('./images/wood-bg.jpeg');
+  background-image: url('./images/unfinished-attic.jpeg');
   background-size: cover;
   background-position: center;
   position: relative;
- 
   padding: 30px;
-
   text-align: right;
   padding-left: 40%;
   padding-right: 10%;
-}
-
-.shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .bring-forward {
@@ -95,6 +97,22 @@ body {
   object-fit: cover;
   height: 180px;
   overflow: hidden;
+}
+
+.mission-statement {
+  background-image: url('./images/brick-work.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mission-statement h5 {
+  margin:20px 10px;
+  text-align: left;
+}
+
+.mission-statement button {
+  margin-top: 2em;
 }
 
   /* PAST PROJECTS */
