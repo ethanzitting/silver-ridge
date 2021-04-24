@@ -20,6 +20,9 @@ body {
   width: 100%;
   max-width: 800px;
   margin-top: 80px;
+  
+  /* Footer Fix */
+  min-height: calc(100vh - 80px - 110px);
 }
 
 .sticky-top {
@@ -56,6 +59,10 @@ body {
 
 .indent {
   padding-left: 2em;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 /* SECTION SPECIFIC LAYOUT AND SPACING */
@@ -131,7 +138,7 @@ footer {
   margin-top: 20px;
   margin-bottom: 0;
   margin-block-end: 0;
-  padding: 10px 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 /* FONTS AND COLORS */
@@ -153,5 +160,9 @@ a, a:visited, a:active {
 
 .nav-link {
   font-size: 1.5em;
+}
+
+.color-muted {
+  color:rgba(100, 100, 100)
 }
 
